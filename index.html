@@ -1,27 +1,80 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>立体多维综合开发日志</title>
-	</head>
-	<body>
-		<a href="https://space.bilibili.com/1112422375?spm_id_from=333.788.0.0">这里是我的B站主页</a>
-		<br>
-		<br>
-		<a href="https://www.afdian.com/@litiduowei">有能力来这里捐助a！</a>
-		<br>
-		<p>2022年1月31日 立体君 更新开发日志网站</p>
-		<p>-重写优化算法</p>
-		<p>-添加视频测试</p>
-		<p>-重写格式</p>
+
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	video {
+		position: fixed;
+		right: 0px;
+		bottom: 0px;
+		min-width: 100%;
+		min-height: 100%;
+		height: auto;
+		width: auto;
+		/*加滤镜*/
+		/*filter: blur(15px); //背景模糊设置 */
+		/*-webkit-filter: grayscale(100%);*/
+		/*filter:grayscale(100%); //背景灰度设置*/
+		z-index: -11
+	}
+
+	source {
+		min-width: 100%;
+		min-height: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	p {
+		width: 100%;
+		text-align: center;
+		font-size: 40px;
+		color: white;
+	}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<title>立体多维综合开发日志</title>
+</head>
+<body>
+	<a href="https://space.bilibili.com/1112422375?spm_id_from=333.788.0.0">这里是我的B站主页</a>
+	<br>
+	<br>
+	<a href="https://www.afdian.com/@litiduowei">有能力来这里捐助a！</a>
+	<br>
+	<div align="left">
+		<font color="#FF0000">
+			2022年1月31日 立体君 更新开发日志网站
+			<br>
+			-重写优化算法
+			<br>
+			-添加视频测试
+			<br>
+			-重写格式
+			<br>
+			2022年1月31日 遗忘君 更新官网和开发日志网站
+			<br>
+			-添加视频背景
+		</font>
+	</div>
+	<div align="center">
 		<p>立体多维工作室-有内涵，不花样！</p>
 		<br>
 		<br>
-		<p>下方为视频播放测试区</p>
+		<p>背景和下方为视频播放测试区</p>
 		<p>
 			<video width="620" height="360" controls="controls">
 				<source src="movie.mp4" type="video/mp4" />
 			</video>
 			<img src="logo.gif" width="200" height="200" />
-</p>
-	</body>
+		</p>
+	</div>
+		<video autoplay loop muted>
+			<source src="./background.mp4" type="video/mp4" />
+		</video>
+</body>
 </html>
