@@ -1,86 +1,95 @@
+<!DOCTYPE HTML>
 <html>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
 
-<style>
-	* {
-		margin: 0px;
-		padding: 0px;
-	}
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -9999;
+            /*灰色调*/
+            /*-webkit-filter:grayscale(100%)*/
+        }
 
-	video {
-		position: fixed;
-		right: 0px;
-		bottom: 0px;
-		min-width: 100%;
-		min-height: 100%;
-		height: auto;
-		width: auto;
-		/*加滤镜*/
-		/*filter: blur(15px); //背景模糊设置 */
-		/*-webkit-filter: grayscale(100%);*/
-		/*filter:grayscale(100%); //背景灰度设置*/
-		z-index: -11
-	}
+		source {
+			min-width: 100%;
+			min-height: 100%;
+			height: auto;
+			width: auto;
+		}
 
-	source {
-		min-width: 100%;
-		min-height: 100%;
-		height: auto;
-		width: auto;
-	}
-
-	p {
-		width: 100%;
-		text-align: center;
-		font-size: 40px;
-		color: white;
-	}
-</style>
-
-<head>
-	<meta charset="utf-8">
-	<title>立体多维综合开发日志</title>
-</head>
-<body>
-	<a href="https://space.bilibili.com/1112422375?spm_id_from=333.788.0.0">这里是我的B站主页</a>
-	<br>
-	<br>
-	<a href="https://www.afdian.com/@litiduowei">有能力来这里捐助a！</a>
-	<br>
-	<div align="left">
-		<font color="#FF0000">
-			2022年1月31日 立体君 更新开发日志网站
-			<br>
-			-重写优化算法
-			<br>
-			-添加视频测试
-			<br>
-			-重写格式
-			<br>
-			2022年1月31日 遗忘君 更新官网和开发日志网站
-			<br>
-			-添加视频背景
-		</font>
-	</div>
-	<div align="center">
-		<font color="#0000FF">
-			<div align="center">
-				<div style="font-size:40px">
-					立体多维工作室-有内涵，不花样！
+		p {
+			width: 100%;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+		}
+	</style>
+	<head>
+		<meta charset="utf-8">
+		<title>立体多维综合开发日志</title>
+	</head>
+	<body>
+		<div style="font-size:25px">
+			<a href="https://litiduowei.pages.dev/"><center>前往官网</center></a>
+		</div>
+		<br>
+		<a href="https://space.bilibili.com/1112422375?spm_id_from=333.788.0.0">这里是我的B站主页（直接点击）</a>
+		<br>
+		<br>
+		<a href="https://www.afdian.com/@litiduowei">有能力来这里捐助a！（直接点击）</a>
+		<div align="left">
+			<font color="#FF0000">
+				2022年1月31日 立体君 更新开发日志网站
+				<br>
+				-重写优化算法
+				<br>
+				-添加视频测试
+				<br>
+				-重写格式
+				<br>
+				2022年1月31日 遗忘君 更新官网和开发日志网站
+				<br>
+				-添加视频背景
+				<br>
+				2022年2月1日 立体君 更新官网和开发日志网站
+				<br>
+				-更改网站背景
+				<br>
+				-重写网站播放内核
+				<br>
+				-上传低清版视频
+				<br>
+				-上传高清版传送门
+				<br>
+				-优化使用体验
+				<br>
+				-修复bug
+			</font>
+		</div>
+		<div align="center">
+			<font color="#0000FF">
+				<div align="center">
+					<div style="font-size:40px">
+						立体多维工作室-有内涵，不花样！
+					</div>
 				</div>
-			</div>
-		</font>
-		<br>
-		<br>
-		<p>背景和下方为视频播放测试区</p>
-		<p>
-			<video width="620" height="360" controls="controls">
-				<source src="movie.mp4" type="video/mp4" />
-			</video>
-			<img src="logo.gif" width="200" height="200" />
-		</p>
-	</div>
-	<video autoplay loop muted>
-		<source src="./background.mp4" type="video/mp4" />
-	</video>
-</body>
+			</font>
+			<br>
+			<br>
+			<p>背景和下方为视频播放测试区</p>
+			<p>
+				<img src="logo.gif" width="200" height="200" />
+			</p>
+		</div>
+		<body background="background.jpg" style=" background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;">
+		</body>
 </html>
